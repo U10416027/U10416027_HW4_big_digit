@@ -22,6 +22,20 @@ public class BigDigit{
 		}
 	}
 	
+	public void setNumplus(){
+		if(bignum1.length() < bignum2.length()){
+			for(int i = bignum1.length(); i < bignum2.length(); i++){
+				firstnum.add(0);
+			}
+		}
+		
+		else if(bignum1.length() > bignum2.length()){
+			for(int i = bignum2.length(; i < bignum1.length(); i++)){
+				secondnum.add(0);
+			}
+		}
+	}
+	
 	
 	
 
