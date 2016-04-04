@@ -30,7 +30,7 @@ public class BigDigit{
 		}
 		
 		else if(bignum1.length() > bignum2.length()){
-			for(int i = bignum2.length; i < bignum1.length(); i++)){
+			for(int i = bignum2.length(); i < bignum1.length(); i++)){
 				secondnum.add(0);
 			}
 		}
