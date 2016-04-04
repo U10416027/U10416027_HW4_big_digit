@@ -10,10 +10,6 @@ public class BigDigit{
 	public BigDigit(String num1, String num2){
 		this.bignum1 = num1;
 		this.bignum2 = num2;
-		setFitstnum();
-		setSecondnum();
-		setNumplus();
-		setResult();
 	}
 	
 	public void setFitstnum(){
